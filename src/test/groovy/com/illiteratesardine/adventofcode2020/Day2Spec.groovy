@@ -32,7 +32,7 @@ class Day2Spec extends Specification {
         Integer answer = systemUnderTest.calculatePart2('Day1')
 
         then:
-        answer == 0
+        answer == 193171814
     }
 
     void 'should calculate part 2 test'() {
