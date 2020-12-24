@@ -2,7 +2,7 @@ package com.illiteratesardine.adventofcode2020
 
 import spock.lang.Specification
 
-class Day1Spec extends Specification {
+class Day2Spec extends Specification {
     Day1 systemUnderTest
     
     void setup() {

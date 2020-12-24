@@ -8,7 +8,7 @@ class AdventOfCode2020Application {
 
 	static void main(String[] args) {
 		SpringApplication.run(AdventOfCode2020Application, args)
-		System.out.println("arstneio")
+		System.out.println("Hello, World!")
 	}
 
 }

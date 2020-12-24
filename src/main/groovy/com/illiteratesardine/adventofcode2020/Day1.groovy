@@ -1,19 +1,36 @@
 package com.illiteratesardine.adventofcode2020
 
+import org.springframework.core.io.ClassPathResource
+
 class Day1 {
 
-    Integer calculatePart1() {
-        4
+    Integer calculatePart1(String fileName) {
+        List<Integer> input = new ClassPathResource(fileName).inputStream.readLines()*.toInteger()
+        Integer val1 = 0, val2 = 0
+        input.each {Integer outerValue ->
+            input.each {Integer innerValue ->
+                if (outerValue + innerValue == 2020) {
+                    val1 = outerValue
+                    val2 = innerValue
+                }
+            }
+        }
+        val1*val2
     }
-    
-    List<Integer> getExpenseReportList() {
-        Scanner scanner = new Scanner(new File('src/main/resources/day1'))
-        List<Integer> expenses = new ArrayList<Integer>()
-        while (scanner.hasNextInt()) {
-            expenses.add(scanner.nextInt())
+    Integer calculatePart2(String fileName) {
+        List<Integer> input = new ClassPathResource(fileName).inputStream.readLines()*.toInteger()
+        Integer val1 = 0, val2 = 0, val3 = 0
+        input.each {Integer outerValue ->
+            input.each {Integer innerValue ->
+                input.each {Integer thirdValue ->
+                    if (outerValue + innerValue + thirdValue == 2020) {
+                        val1 = outerValue
+                        val2 = innerValue
+                        val3 = thirdValue
+                    }
+                }
             }
-            
-            expenses
-            }
-
+        }
+        val1*val2*val3
+    }
 }
