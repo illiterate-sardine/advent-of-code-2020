@@ -29,16 +29,16 @@ class Day3Spec extends Specification {
     void 'should calculate part 2'() {
 
         when:'calculatePart2 is called'
-        Integer answer = systemUnderTest.calculatePart2('Day3')
+        Long answer = systemUnderTest.calculatePart2('Day3.txt')
 
         then:
-        answer == 0
+        answer == 7540141059
     }
 
     void 'should calculate part 2 test'() {
 
         when:'calculatePart2 is called'
-        Integer answer = systemUnderTest.calculatePart2('day3test')
+        Long answer = systemUnderTest.calculatePart2('day3test')
 
         then:
         answer == 336

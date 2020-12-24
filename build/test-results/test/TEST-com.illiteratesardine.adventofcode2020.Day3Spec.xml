@@ -1,35 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.illiteratesardine.adventofcode2020.Day3Spec" tests="4" skipped="0" failures="3" errors="0" timestamp="2020-12-24T03:24:55" hostname="Peters-MacBook-Pro-3.local" time="0.369">
+<testsuite name="com.illiteratesardine.adventofcode2020.Day3Spec" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-12-24T04:28:17" hostname="Peters-MacBook-Pro-3.local" time="0.333">
   <properties/>
-  <testcase name="should calculate part 1" classname="com.illiteratesardine.adventofcode2020.Day3Spec" time="0.314">
-    <failure message="Condition not satisfied:&#10;&#10;answer == 625&#10;|      |&#10;151    false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
-
-answer == 625
-|      |
-151    false
-
-	at com.illiteratesardine.adventofcode2020.Day3Spec.should calculate part 1(Day3Spec.groovy:18)
-</failure>
-  </testcase>
-  <testcase name="should calculate part 1 test" classname="com.illiteratesardine.adventofcode2020.Day3Spec" time="0.024"/>
-  <testcase name="should calculate part 2" classname="com.illiteratesardine.adventofcode2020.Day3Spec" time="0.004">
-    <failure message="java.io.FileNotFoundException: class path resource [Day3] cannot be opened because it does not exist" type="java.io.FileNotFoundException">java.io.FileNotFoundException: class path resource [Day3] cannot be opened because it does not exist
-	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
-	at com.illiteratesardine.adventofcode2020.Day3.calculatePart2(Day3.groovy:33)
-	at com.illiteratesardine.adventofcode2020.Day3Spec.should calculate part 2(Day3Spec.groovy:32)
-</failure>
-  </testcase>
-  <testcase name="should calculate part 2 test" classname="com.illiteratesardine.adventofcode2020.Day3Spec" time="0.026">
-    <failure message="java.lang.NumberFormatException: For input string: &quot;..##.......&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;..##.......&quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:638)
-	at java.base/java.lang.Integer.valueOf(Integer.java:983)
-	at com.illiteratesardine.adventofcode2020.Day3.isValid2(Day3.groovy:43)
-	at com.illiteratesardine.adventofcode2020.Day3.calculatePart2_closure2(Day3.groovy:34)
-	at com.illiteratesardine.adventofcode2020.Day3.calculatePart2(Day3.groovy:34)
-	at com.illiteratesardine.adventofcode2020.Day3Spec.should calculate part 2 test(Day3Spec.groovy:41)
-</failure>
-  </testcase>
+  <testcase name="should calculate part 1" classname="com.illiteratesardine.adventofcode2020.Day3Spec" time="0.264"/>
+  <testcase name="should calculate part 1 test" classname="com.illiteratesardine.adventofcode2020.Day3Spec" time="0.004"/>
+  <testcase name="should calculate part 2" classname="com.illiteratesardine.adventofcode2020.Day3Spec" time="0.059"/>
+  <testcase name="should calculate part 2 test" classname="com.illiteratesardine.adventofcode2020.Day3Spec" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
