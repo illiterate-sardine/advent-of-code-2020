@@ -3,44 +3,44 @@ package com.illiteratesardine.adventofcode2020
 import spock.lang.Specification
 
 class Day2Spec extends Specification {
-    Day1 systemUnderTest
+    Day2 systemUnderTest
     
     void setup() {
-        systemUnderTest = new Day1()
+        systemUnderTest = new Day2()
     }
         
     void 'should calculate part 1'() {
 
         when:'calculatePart1 is called'
-        Integer answer = systemUnderTest.calculatePart1('Day1')
+        Integer answer = systemUnderTest.calculatePart1('Day2')
 
         then:
-        answer == 482811
+        answer == 625
     }
 
     void 'should calculate part 1 test'() {
 
         when:'calculatePart1 is called'
-        Integer answer = systemUnderTest.calculatePart1('day1test')
+        Integer answer = systemUnderTest.calculatePart1('day2test')
 
         then:
-        answer == 514579
+        answer == 2
     }
     void 'should calculate part 2'() {
 
         when:'calculatePart2 is called'
-        Integer answer = systemUnderTest.calculatePart2('Day1')
+        Integer answer = systemUnderTest.calculatePart2('Day2')
 
         then:
-        answer == 193171814
+        answer == 391
     }
 
     void 'should calculate part 2 test'() {
 
         when:'calculatePart2 is called'
-        Integer answer = systemUnderTest.calculatePart2('day1test')
+        Integer answer = systemUnderTest.calculatePart2('day2test')
 
         then:
-        answer == 241861950
+        answer == 1
     }
 }
