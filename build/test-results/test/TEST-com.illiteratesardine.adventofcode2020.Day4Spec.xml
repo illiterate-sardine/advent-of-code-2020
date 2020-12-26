@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.illiteratesardine.adventofcode2020.Day4Spec" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-12-26T20:17:43" hostname="peters-mbp-3.lan" time="0.339">
+  <properties/>
+  <testcase name="should calculate part 1 test" classname="com.illiteratesardine.adventofcode2020.Day4Spec" time="0.339">
+    <failure message="Condition not satisfied:&#10;&#10;answer == 2&#10;|      |&#10;0      false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+answer == 2
+|      |
+0      false
+
+	at com.illiteratesardine.adventofcode2020.Day4Spec.should calculate part 1 test(Day4Spec.groovy:27)
+</failure>
+  </testcase>
+  <system-out><![CDATA[ecl:gry pid:860033327 eyr:2020 hcl:#fffffd byr:1937 iyr:2017 cid:147 hgt:183cm
+null
+null
+null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
